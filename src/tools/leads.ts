@@ -14,6 +14,6 @@ export async function getLead(element_id: number) {
 
     } catch (error) {
         console.error("❌ Error en getLead (kommo.service.js):", error);
-        return null;
+        return null
     }
 }
